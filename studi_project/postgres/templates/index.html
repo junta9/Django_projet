@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for product in products %}
+
+                        <div class="col-lg-4 col-sm-4">
+                           <div class="box_main">
+                              <h4 class="shirt_text">{{ product.label | upper }}</h4>
+                              <p class="price_text">Price
+                                  {% if product.promotion %}
+                                  <span style="color: #262626;">€ {{ product.price_promo | floatformat:2}}</span>
+                                  {% else %}
+                                  <span style="color: #262626;">€ {{ product.price | floatformat:2}}</span>
+                                  {% endif %}
+
+                              </p>
+                              <div class="tshirt_img"><img src="{{ product.image_url }}" style="max-width: 250px"></div>
+                               <div class="buy_bt">
+                                   <a href="#">Buy Now</a>
+                               </div>
+                           </div>
+                        </div>
+
+{% endfor %}
+
+{% endblock %}
