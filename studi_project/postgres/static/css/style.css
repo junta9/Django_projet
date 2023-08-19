@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -27,7 +27,6 @@ html {
 
 body {
     color: #666666;
-    background-color: #f1edea;
     font-size: 14px;
     line-height: 1.80857;
     font-weight: normal;
@@ -212,15 +211,17 @@ button {
 
 /* banner bg main start */
 
-/*.banner_bg_main {
+.banner_bg_main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     float: left;
-    background-image: url(../images/banner-doudou.jpg);
-    height: 80vh;
+    /* background-image: url(../images/banner-bg.png); */
+    height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 50%;
-}*/
+    background-color: #B59105;
+}
 
 
 /* banner bg main end */
@@ -231,8 +232,7 @@ button {
 .header_section_top {
     width: 100%;
     float: left;
-    /* background-color: #e5c8e6; */
-    background-color: #f1e8e5;
+    background-color: #2b2a29;
     clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
     height: auto;
     padding: 10px 0px;
@@ -273,23 +273,16 @@ button {
 
 .logo_section {
     width: 100%;
-    float: left;
+}
+h1 {
+    color: white;
 }
 
 .logo {
     width: 100%;
     float: left;
     text-align: center;
-    padding: 10px 0px;
-}
-
-#logo_title {
-    /* color: #af75b1; */
-    color: #5D3D29;
-    /* color: #f26522; */
-    font-size: 2.5em;
-    text-transform: uppercase;
-    font-weight: bold;
+    padding: 30px 0px;
 }
 
 
@@ -301,19 +294,10 @@ button {
 .header_section {
     width: 100%;
     display: flex;
-    
-}
-
-.header_section .container {
-    width: 90%;
 }
 
 .containt_main {
     display: flex;
-}
-
-#custom_link {
-    color: #5D3D29;
 }
 
 
@@ -413,15 +397,34 @@ button {
     display: inline-block;
     order: 2;
 }
-main {
-    margin-top: 300px;
-    height: 80vh;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.content {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
 }
+@media screen and (max-width: 1024px) {
+    .content {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner_taital {
+        height: auto!important;
+        font-size: 30px!important;
+    }
+}
+.article {
+    padding: 10px;
+}
+
+
 
 
 /* Bootstrap 4 text input with search icon */
@@ -514,8 +517,10 @@ a:hover {
 }
 
 .banner_taital {
+    display: none;
     width: 100%;
-    font-size: 60px;
+    height: 345px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -600,9 +605,12 @@ a:hover {
 }
 
 .box_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     background-color: #ffffff;
-    height: auto;
+    height: 100%;
     padding: 20px;
     box-shadow: 0px 0 30px 10px #f0f0f0;
     margin-bottom: 20px;
@@ -628,7 +636,7 @@ a:hover {
 .tshirt_img {
     width: 100%;
     text-align: center;
-    margin: 50px 0px;
+    margin: 50px 0px 0 0;
     min-height: 370px;
 }
 
@@ -638,8 +646,8 @@ a:hover {
 }
 
 .buy_bt {
-    float: left;
     width: 100%;
+    text-align: center;
 }
 
 .buy_bt a {
@@ -847,7 +855,7 @@ a:hover {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #e5c8e6;
+    background-color: #252525;
     height: auto;
 }
 

@@ -1,0 +1,37 @@
+<div id="response-div">
+  <h2 class="text-center fs-1 mb-5 text-uppercase fw-bold">Articles</h2>
+  <div class="row w-100 justify-content-center">
+  {% for product in products %}
+    <div class="col-lg-4 col-sm-4 article">
+      <div class="box_main">
+        <h4 class="shirt_text">{{ product.label | upper }}</h4>
+        {% if product.promotion %}
+        <span class="text-center fs-5" style="color: red; font-weight: bold"
+          >En promotion</span
+        >
+        {% endif %}
+        <div class="tshirt_img">
+          <img src="{{ product.image_url }}" style="max-width: 200px" />
+        </div>
+        <p>{{ product.description }}</p>
+        <p class="price_text">
+          Price {% if product.promotion %}
+          <span style="color: red; font-weight: bold"
+            >€ {{ product.price_promo | floatformat:2}}</span
+          >
+          <span
+            class="ms-1"
+            style="color: #262626; text-decoration: line-through"
+            >{{ product.price | floatformat:2 }}</span
+          >
+          {% else %}
+          <span style="color: #262626"
+            >€ {{ product.price | floatformat:2 }}</span
+          >
+          {% endif %}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+   </div>
+</div>

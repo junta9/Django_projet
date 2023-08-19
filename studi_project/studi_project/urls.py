@@ -17,10 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from postgres.views import index
+from postgres.views import index, catalog, search, promotion
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
+    path('catalog/', catalog, name='catalog'),
+    path('promotion/', promotion, name='promotion'),
+    path('search/', search, name='search'),
 
 ]
