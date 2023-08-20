@@ -131,9 +131,9 @@
     .banner_bg_main {
         background-size: 100% 100%;
     }
-    .tshirt_img {
+    .article_img {
         margin: 20px 0px;
-        min-height: 360px;
+        min-height: 250px;
     }
     #main_slider a.carousel-control-next {
         right: 40px;
@@ -179,9 +179,9 @@
     .dropdown {
         display: none;
     }
-    .tshirt_img {
+    .article_img {
         margin: 20px 0px;
-        min-height: 320px;
+        min-height: 250px;
     }
     .banner_taital {
         font-size: 50px;
@@ -290,7 +290,7 @@
         margin: 20px 0px;
         min-height: 145px;
     }
-    .tshirt_img {
+    .article_img {
         margin: 20px 0px;
         min-height: 246px;
     }
@@ -419,7 +419,7 @@
         margin: 20px 0px;
         min-height: 0;
     }
-    .tshirt_img {
+    .article_img {
         margin: 20px 0px;
         min-height: 0;
     }

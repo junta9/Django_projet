@@ -78,47 +78,36 @@
                   <div class="main">
                      <!-- Another variation with a button -->
                         <div class="input-group">
-                           <input hx-get="{% url 'search' %}" hx-swap="outerHTML" href="" hx-target="#response-div"  type="search" class="form-control" name="item-search" placeholder="Search">
+                           <input hx-get="{% url 'search' %}" hx-swap="outerHTML" href="" hx-target="#response-div" type="search" class="form-control" name="item-search" placeholder="Search">
                            <div class="input-group-append">
                              <button class="btn btn-secondary"  style="background-color: #f26522; border-color:#f26522 ">
                               <i class="fa fa-search"></i>
                               </button>
                            </div>
                         </div>
+                        <form class="mt-5" method="POST" action="">
+                           <label class="text-white" for="category">Filter by Category:</label>
+                           <select hx-get="{% url 'category' %}" hx-swap="outerHTML" hx-target="#response-div"  name="category" id="category">
+                               <option value="" selected>Choose Categories</option>
+                               {% for category in categories %}
+                                   <option name="category" value="{{ category.id }}">{{ category.label }}</option>
+                               {% endfor %}
+                           </select>
+                       </form>
                   </div>
                </div>
             </div>
          </div>
          <!-- header section end -->
          <!-- banner section start -->
-         <div class="banner_section layout_padding">
-            <div class="container">
-               <div id="my_slider" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="row">
-                           <div class="col-sm-12">
-                              <h5 class="banner_taital">
-                                 Get Start <br>Your favorite shopping
-                              </h5>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
          <!-- banner section end -->
       </div>
-   <main class="row content">
-      {% block content %}
-      <div id="response-div">
-
-      </div>
-      {% endblock %}
-
-<!--      <h2 class="promotion_title text-center fs-1 mb-5 text-uppercase fw-bold">promotions</h2>-->
-   </main>
+      <main class="row content">
+         {% block content %}
+         <div id="response-div">
+         </div>
+         {% endblock %}
+      </main>
 
 
 

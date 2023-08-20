@@ -1,7 +1,9 @@
 <div id="response-div">
-  <h2 class="text-center fs-1 mb-5 text-uppercase fw-bold">Articles</h2>
+  <h2 class="text-center fs-1 mb-5 text-uppercase fw-bold">{{ category }}</h2>
+
   <div class="row w-100 justify-content-center">
-  {% for product in products %}
+    
+    {% for product in products %}
     <div class="col-xl-3 col-lg-4 col-sm-4 article">
       <div class="box_main">
         <h4 class="shirt_text">{{ product.label | upper }}</h4>
@@ -19,9 +21,7 @@
           <span style="color: red; font-weight: bold"
             >€ {{ product.price_promo | floatformat:2}}</span
           >
-          <span
-            class="ms-1"
-            style="color: #262626; text-decoration: line-through"
+          <span class="ms-1" style="color: #262626; text-decoration: line-through"
             >{{ product.price | floatformat:2 }}</span
           >
           {% else %}
@@ -32,6 +32,6 @@
         </p>
       </div>
     </div>
-    {% endfor %}
-   </div>
+  {% endfor %}
+  </div>
 </div>

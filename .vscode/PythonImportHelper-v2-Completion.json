@@ -333,6 +333,14 @@
         "documentation": {}
     },
     {
+        "label": "category",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -485,6 +493,15 @@
         "documentation": {}
     },
     {
+        "label": "filtered_products",
+        "kind": 2,
+        "importPath": "studi_project.postgres.views",
+        "description": "studi_project.postgres.views",
+        "peekOfCode": "def filtered_products(request):\n    category_id = request.GET.get('category')\n    if category_id:\n        products = Product.objects.filter(category_id=category_id)\n    else:\n        products = None\n    return products\ndef get_filtered_products(request, filter=None):\n    products = Product.objects.all()\n    if filter == 'promotion':",
+        "detail": "studi_project.postgres.views",
+        "documentation": {}
+    },
+    {
         "label": "get_filtered_products",
         "kind": 2,
         "importPath": "studi_project.postgres.views",
@@ -507,7 +524,7 @@
         "kind": 2,
         "importPath": "studi_project.postgres.views",
         "description": "studi_project.postgres.views",
-        "peekOfCode": "def index(request):\n    remove_expired_promotions()\n    active_promotion = Promotion.objects.filter(\n        start_date__lte=timezone.now(),\n        end_date__gte=timezone.now()\n    ).first()\n    products = get_filtered_products(request, 'promotion')\n    for product in products:\n        if active_promotion and product.promotion:\n            product.price_promo = product.price - (product.price * (active_promotion.percentage / 100))",
+        "peekOfCode": "def index(request):\n    remove_expired_promotions()\n    active_promotion = Promotion.objects.filter(\n        start_date__lte=timezone.now(),\n        end_date__gte=timezone.now()\n    ).first()\n    categories = Category.objects.all()\n    products = get_filtered_products(request, 'promotion')\n    for product in products:\n        if active_promotion and product.promotion:",
         "detail": "studi_project.postgres.views",
         "documentation": {}
     },
@@ -516,7 +533,7 @@
         "kind": 2,
         "importPath": "studi_project.postgres.views",
         "description": "studi_project.postgres.views",
-        "peekOfCode": "def catalog(request):\n    products = get_filtered_products(request)\n    return render(request, 'catalog.html', {\"products\": products})\ndef promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})",
+        "peekOfCode": "def catalog(request):\n    products = get_filtered_products(request)\n    return render(request, 'catalog.html', {\"products\": products})\ndef promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):",
         "detail": "studi_project.postgres.views",
         "documentation": {}
     },
@@ -525,7 +542,7 @@
         "kind": 2,
         "importPath": "studi_project.postgres.views",
         "description": "studi_project.postgres.views",
-        "peekOfCode": "def promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})",
+        "peekOfCode": "def promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:",
         "detail": "studi_project.postgres.views",
         "documentation": {}
     },
@@ -534,7 +551,16 @@
         "kind": 2,
         "importPath": "studi_project.postgres.views",
         "description": "studi_project.postgres.views",
-        "peekOfCode": "def search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})",
+        "peekOfCode": "def search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:\n        category = products[0].category.label\n    context = {\n        \"products\": products,",
+        "detail": "studi_project.postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "kind": 2,
+        "importPath": "studi_project.postgres.views",
+        "description": "studi_project.postgres.views",
+        "peekOfCode": "def category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:\n        category = products[0].category.label\n    context = {\n        \"products\": products,\n        \"category\": category\n    }\n    return render(request, 'category.html', context)",
         "detail": "studi_project.postgres.views",
         "documentation": {}
     },
@@ -714,7 +740,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.urls",
         "description": "studi_project.studi_project.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', index, name='index'),\n    path('catalog/', catalog, name='catalog'),\n    path('promotion/', promotion, name='promotion'),\n    path('search/', search, name='search'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', index, name='index'),\n    path('catalog/', catalog, name='catalog'),\n    path('promotion/', promotion, name='promotion'),\n    path('search/', search, name='search'),\n    path('category/', category, name='category'),\n]",
         "detail": "studi_project.studi_project.urls",
         "documentation": {}
     },

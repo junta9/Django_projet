@@ -3,7 +3,7 @@
   <div class="row w-100 justify-content-center">
   {% for product in products %}
 
-  <div class="col-lg-4 col-sm-4 article">
+  <div class="col-xl-3 col-lg-4 col-sm-4 article">
     <div class="box_main">
       <h4 class="shirt_text">{{ product.label | upper }}</h4>
       {% if product.promotion %}
@@ -11,7 +11,7 @@
         >En promotion</span
       >
       {% endif %}
-      <div class="tshirt_img">
+      <div class="article_img">
         <img src="{{ product.image_url }}" style="max-width: 200px" />
       </div>
       <p>{{ product.description }}</p>

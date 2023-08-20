@@ -26,6 +26,8 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     color: #666666;
     font-size: 14px;
     line-height: 1.80857;
@@ -397,6 +399,9 @@ h1 {
     display: inline-block;
     order: 2;
 }
+main {
+    min-height: 100%;
+}
 .content {
     padding-top: 100px;
     margin-bottom: 100px;
@@ -633,11 +638,11 @@ a:hover {
     margin: 0px;
 }
 
-.tshirt_img {
+.article_img {
     width: 100%;
     text-align: center;
     margin: 50px 0px 0 0;
-    min-height: 370px;
+    min-height: 250px;
 }
 
 .btn_main {
@@ -993,3 +998,14 @@ input.mail_bt::placeholder {
 
 
 /* copyright section end */
+
+/* @media screen and (min-width: 1441px) {
+    .content {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+} */
+
+#nav {
+    background-color: grey;
+}
