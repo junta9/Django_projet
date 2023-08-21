@@ -284,12 +284,11 @@
         "documentation": {}
     },
     {
-        "label": "environ",
-        "kind": 6,
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "importPath": "environ",
-        "description": "environ",
-        "detail": "environ",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -574,20 +573,11 @@
         "documentation": {}
     },
     {
-        "label": "env",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env()\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -596,7 +586,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -605,7 +595,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -614,7 +604,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -659,7 +649,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'studi_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': \"projet_studi\",\n        'USER': \"postgres\",\n        'PASSWORD': \"root\",\n        'HOST': \"localhost\",",
+        "peekOfCode": "WSGI_APPLICATION = 'studi_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -668,7 +658,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': \"projet_studi\",\n        'USER': \"postgres\",\n        'PASSWORD': \"root\",\n        'HOST': \"localhost\",\n        'PORT': \"5432\",\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],\n        'PORT': os.environ[\"DB_PORT\"],\n    }\n}",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
