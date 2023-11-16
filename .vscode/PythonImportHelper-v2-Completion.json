@@ -712,7 +712,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\n# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -721,7 +721,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\n# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -730,7 +730,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\n# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -739,7 +739,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\n# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },\n# }",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -748,25 +748,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STORAGES",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\n# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },\n# }",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
