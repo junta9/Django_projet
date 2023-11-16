@@ -1,5 +1,7 @@
 *python -m venv env
-*source env/bin/activate ou source env/Scripts/activate
+*source env/bin/activate ou source venv/Scripts/activate
 *Le (env) doit s’afficher pour dire qu’il est activé sinon répéter l’opération précédente.
 *pip install django==4.2.4
 *pip freeze > requirements.txt
+
+python manage.py runserver

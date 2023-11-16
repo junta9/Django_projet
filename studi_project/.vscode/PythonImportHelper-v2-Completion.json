@@ -1,0 +1,755 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "django_dump_die",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_dump_die",
+        "description": "django_dump_die",
+        "detail": "django_dump_die",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "dd",
+        "importPath": "django_dump_die.middleware",
+        "description": "django_dump_die.middleware",
+        "isExtraImport": true,
+        "detail": "django_dump_die.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "catalog",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "promotion",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "isExtraImport": true,
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0001_initial",
+        "description": "postgres.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('label', models.CharField(max_length=100)),",
+        "detail": "postgres.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0002_category",
+        "description": "postgres.migrations.0002_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('label', models.CharField(max_length=100)),",
+        "detail": "postgres.migrations.0002_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0003_alter_product_category",
+        "description": "postgres.migrations.0003_alter_product_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0002_category'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='product',\n            name='category',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='postgres.category'),\n        ),",
+        "detail": "postgres.migrations.0003_alter_product_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0004_alter_product_category",
+        "description": "postgres.migrations.0004_alter_product_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0003_alter_product_category'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='product',\n            name='category',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='categoy', to='postgres.category'),\n        ),",
+        "detail": "postgres.migrations.0004_alter_product_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0005_alter_product_category_alter_promotion_product",
+        "description": "postgres.migrations.0005_alter_product_category_alter_promotion_product",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0004_alter_product_category'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='product',\n            name='category',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='category', to='postgres.category'),\n        ),",
+        "detail": "postgres.migrations.0005_alter_product_category_alter_promotion_product",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0006_remove_promotion_product_product_promotion",
+        "description": "postgres.migrations.0006_remove_promotion_product_product_promotion",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0005_alter_product_category_alter_promotion_product'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='promotion',\n            name='product',\n        ),\n        migrations.AddField(",
+        "detail": "postgres.migrations.0006_remove_promotion_product_product_promotion",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0007_product_price_promo",
+        "description": "postgres.migrations.0007_product_price_promo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0006_remove_promotion_product_product_promotion'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='product',\n            name='price_promo',\n            field=models.FloatField(blank=True, null=True),\n        ),",
+        "detail": "postgres.migrations.0007_product_price_promo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0008_alter_promotion_percentage",
+        "description": "postgres.migrations.0008_alter_promotion_percentage",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0007_product_price_promo'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='promotion',\n            name='percentage',\n            field=models.IntegerField(),\n        ),",
+        "detail": "postgres.migrations.0008_alter_promotion_percentage",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "postgres.migrations.0009_alter_product_promotion",
+        "description": "postgres.migrations.0009_alter_product_promotion",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('postgres', '0008_alter_promotion_percentage'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='product',\n            name='promotion',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='postgres.promotion'),\n        ),",
+        "detail": "postgres.migrations.0009_alter_product_promotion",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAdmin",
+        "kind": 6,
+        "importPath": "postgres.admin",
+        "description": "postgres.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    list_display = ('label', 'description', 'price', 'promotion', 'price_promo')\nclass PromotionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'start_date', 'end_date', 'percentage')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Category)\nadmin.site.register(Promotion, PromotionAdmin)",
+        "detail": "postgres.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PromotionAdmin",
+        "kind": 6,
+        "importPath": "postgres.admin",
+        "description": "postgres.admin",
+        "peekOfCode": "class PromotionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'start_date', 'end_date', 'percentage')\nadmin.site.register(Product, ProductAdmin)\nadmin.site.register(Category)\nadmin.site.register(Promotion, PromotionAdmin)",
+        "detail": "postgres.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PostgresConfig",
+        "kind": 6,
+        "importPath": "postgres.apps",
+        "description": "postgres.apps",
+        "peekOfCode": "class PostgresConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'postgres'",
+        "detail": "postgres.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "postgres.models",
+        "description": "postgres.models",
+        "peekOfCode": "class Category(models.Model):\n    label = models.CharField(max_length=100)\n    def __str__(self):\n        return self.label\nclass Promotion(models.Model):\n    start_date = models.DateTimeField()\n    end_date = models.DateTimeField()\n    percentage = models.IntegerField()\n    # product = models.ForeignKey(Product, models.SET_NULL, blank=True, null=True, )\n    def __str__(self):",
+        "detail": "postgres.models",
+        "documentation": {}
+    },
+    {
+        "label": "Promotion",
+        "kind": 6,
+        "importPath": "postgres.models",
+        "description": "postgres.models",
+        "peekOfCode": "class Promotion(models.Model):\n    start_date = models.DateTimeField()\n    end_date = models.DateTimeField()\n    percentage = models.IntegerField()\n    # product = models.ForeignKey(Product, models.SET_NULL, blank=True, null=True, )\n    def __str__(self):\n        return f\"{self.percentage}% off\"\nclass Product(models.Model):\n    label = models.CharField(max_length=100)\n    description = models.TextField()",
+        "detail": "postgres.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "postgres.models",
+        "description": "postgres.models",
+        "peekOfCode": "class Product(models.Model):\n    label = models.CharField(max_length=100)\n    description = models.TextField()\n    price = models.FloatField()\n    image_url = models.CharField(max_length=200)\n    category = models.ForeignKey(Category, related_name=\"category\", on_delete=models.CASCADE)\n    promotion = models.ForeignKey(Promotion, blank=True, null=True, on_delete=models.SET_NULL)\n    price_promo = models.FloatField(blank=True, null=True)\n    def __str__(self):\n        return self.label",
+        "detail": "postgres.models",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_products",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def filtered_products(request):\n    category_id = request.GET.get('category')\n    if category_id:\n        products = Product.objects.filter(category_id=category_id)\n    else:\n        products = None\n    return products\ndef get_filtered_products(request, filter=None):\n    products = Product.objects.all()\n    if filter == 'promotion':",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_filtered_products",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def get_filtered_products(request, filter=None):\n    products = Product.objects.all()\n    if filter == 'promotion':\n        products = products.filter(promotion__isnull=False)\n    elif filter == 'search':\n        item_search = request.GET.get('item-search')\n        if item_search:\n            products = products.filter(label__icontains=item_search)\n    return products\ndef remove_expired_promotions():",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "remove_expired_promotions",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def remove_expired_promotions():\n    now = timezone.now()\n    expired_promotions = Promotion.objects.filter(end_date__lt=now)\n    expired_promotions.delete()\ndef index(request):\n    remove_expired_promotions()\n    active_promotion = Promotion.objects.filter(\n        start_date__lte=timezone.now(),\n        end_date__gte=timezone.now()\n    ).first()",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def index(request):\n    remove_expired_promotions()\n    active_promotion = Promotion.objects.filter(\n        start_date__lte=timezone.now(),\n        end_date__gte=timezone.now()\n    ).first()\n    categories = Category.objects.all()\n    products = get_filtered_products(request, 'promotion')\n    for product in products:\n        if active_promotion and product.promotion:",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "catalog",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def catalog(request):\n    products = get_filtered_products(request)\n    return render(request, 'catalog.html', {\"products\": products})\ndef promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "promotion",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def promotion(request):\n    products = get_filtered_products(request, 'promotion')\n    return render(request, 'promotion.html', {\"products\": products})\ndef search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def search(request):\n    products = get_filtered_products(request, 'search')\n    return render(request, 'search.html', {\"products\": products})\ndef category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:\n        category = products[0].category.label\n    context = {\n        \"products\": products,",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "kind": 2,
+        "importPath": "postgres.views",
+        "description": "postgres.views",
+        "peekOfCode": "def category(request):\n    products = filtered_products(request)\n    category = \"Il n'ya pas de produits\"\n    if products:\n        category = products[0].category.label\n    context = {\n        \"products\": products,\n        \"category\": category\n    }\n    return render(request, 'category.html', context)",
+        "detail": "postgres.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "studi_project.asgi",
+        "description": "studi_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "studi_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',\n    'django_htmx',\n    'postgres',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'django_dump_die.middleware.DumpAndDieMiddleware',\n    'django_htmx.middleware.HtmxMiddleware'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'studi_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'studi_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],\n        'PORT': os.environ[\"DB_PORT\"],\n    }\n}",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'fr-fr'\nTIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "TIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "studi_project.settings",
+        "description": "studi_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "studi_project.urls",
+        "description": "studi_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', index, name='index'),\n    path('catalog/', catalog, name='catalog'),\n    path('promotion/', promotion, name='promotion'),\n    path('search/', search, name='search'),\n    path('category/', category, name='category'),\n]",
+        "detail": "studi_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "studi_project.wsgi",
+        "description": "studi_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "studi_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'studi_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
