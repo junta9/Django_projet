@@ -1,0 +1,1 @@
+web: gunicorn studi_projetct.wsgi --log-file -

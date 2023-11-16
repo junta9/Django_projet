@@ -301,6 +301,15 @@
         "documentation": {}
     },
     {
+        "label": "django_heroku",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_heroku",
+        "description": "django_heroku",
+        "detail": "django_heroku",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -631,7 +640,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'django_dump_die.middleware.DumpAndDieMiddleware',\n    'django_htmx.middleware.HtmxMiddleware'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'django_dump_die.middleware.DumpAndDieMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -694,7 +703,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "TIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -703,7 +712,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -712,7 +721,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -721,7 +730,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -730,7 +739,34 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "detail": "studi_project.studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "studi_project.studi_project.settings",
+        "description": "studi_project.studi_project.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "detail": "studi_project.studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "studi_project.studi_project.settings",
+        "description": "studi_project.studi_project.settings",
+        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\ndjango_heroku.settings(locals())\nSTORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "detail": "studi_project.studi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STORAGES",
+        "kind": 5,
+        "importPath": "studi_project.studi_project.settings",
+        "description": "studi_project.studi_project.settings",
+        "peekOfCode": "STORAGES = {\n    # ...\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
