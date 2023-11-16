@@ -292,6 +292,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -649,7 +658,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'studi_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],",
+        "peekOfCode": "WSGI_APPLICATION = 'studi_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql_psycopg2',\n#         'NAME': os.environ[\"DB_NAME\"],\n#         'USER': os.environ[\"DB_USER\"],\n#         'PASSWORD': os.environ[\"DB_PASSWORD\"],\n#         'HOST': os.environ[\"DB_HOST\"],",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -658,7 +667,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': os.environ[\"DB_NAME\"],\n        'USER': os.environ[\"DB_USER\"],\n        'PASSWORD': os.environ[\"DB_PASSWORD\"],\n        'HOST': os.environ[\"DB_HOST\"],\n        'PORT': os.environ[\"DB_PORT\"],\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
