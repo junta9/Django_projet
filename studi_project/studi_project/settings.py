@@ -14,8 +14,8 @@ from pathlib import Path
 import psycopg2
 from dotenv import load_dotenv
 import os
-import dj_database_url
-import django_heroku
+#import dj_database_url
+#import django_heroku
 #from decouple import config
 
 load_dotenv()
@@ -195,7 +195,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # MEDIA_URL = "/media/"
 # MEDIA_URL = "/media/"
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 # STORAGES = {
 #     # ...

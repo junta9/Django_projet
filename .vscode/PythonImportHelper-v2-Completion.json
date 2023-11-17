@@ -292,24 +292,6 @@
         "documentation": {}
     },
     {
-        "label": "dj_database_url",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "dj_database_url",
-        "description": "dj_database_url",
-        "detail": "dj_database_url",
-        "documentation": {}
-    },
-    {
-        "label": "django_heroku",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django_heroku",
-        "description": "django_heroku",
-        "detail": "django_heroku",
-        "documentation": {}
-    },
-    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
