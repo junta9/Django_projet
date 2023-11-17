@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 import os
 import dj_database_url
 import django_heroku
+from decouple import config
 
 load_dotenv()
 
@@ -34,6 +35,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ['SECRET_KEY']
 SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -97,6 +99,16 @@ WSGI_APPLICATION = 'studi_project.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': config("DB_NAME"),
+#         'USER': config("DB_USER"),
+#         'PASSWORD': config("DB_PASSWORD"),
+#         'HOST': config("DB_HOST"),
+#         'PORT': config("DB_PORT"),
+#     }
+# }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': os.environ["DB_NAME"],
 #         'USER': os.environ["DB_USER"],
 #         'PASSWORD': os.environ["DB_PASSWORD"],
@@ -104,9 +116,11 @@ WSGI_APPLICATION = 'studi_project.wsgi.application'
 #         'PORT': os.environ["DB_PORT"],
 #     }
 # }
-DATABASES = {
-    'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
-}
+# DATABASES = {
+#     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
+# }
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES = ['default'].update(db_from_env)
 
 
 # Password validation
