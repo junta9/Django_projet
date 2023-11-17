@@ -284,14 +284,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "dj_database_url",
         "kind": 6,
         "isExtraImport": true,
@@ -307,14 +299,6 @@
         "importPath": "django_heroku",
         "description": "django_heroku",
         "detail": "django_heroku",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "importPath": "decouple",
-        "description": "decouple",
-        "isExtraImport": true,
-        "detail": "decouple",
         "documentation": {}
     },
     {
@@ -619,7 +603,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.environ['SECRET_KEY']\nSECRET_KEY = os.environ.get('SECRET_KEY')\nSECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'\n#SECRET_KEY = os.environ.get('SECRET_KEY')\n#SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -628,25 +612,25 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\nSECRET_KEY = os.environ.get('SECRET_KEY')\nSECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'\n#SECRET_KEY = os.environ.get('SECRET_KEY')\n#SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
     {
-        "label": "SECRET_KEY",
+        "label": "#SECRET_KEY",
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "SECRET_KEY = os.environ.get('SECRET_KEY')\nSECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "#SECRET_KEY = os.environ.get('SECRET_KEY')\n#SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
     {
-        "label": "SECRET_KEY",
+        "label": "#SECRET_KEY",
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "#SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -655,7 +639,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -664,7 +648,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',",
+        "peekOfCode": "ALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_dump_die',",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -714,20 +698,11 @@
         "documentation": {}
     },
     {
-        "label": "db_from_env",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=600)\nDATABASES = ['default'].update(db_from_env)\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
         "label": "DATABASES",
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DATABASES = ['default'].update(db_from_env)\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'd2c7ear4fatsgr',\n        'USER': 'mcmvwrowecaypb',\n        'PASSWORD': '1f39b93300f49bb3616cc57cda29ba2195664ff1a0cc80d5cfec6f11d450a496',\n        'HOST': 'ec2-99-80-190-165.eu-west-1.compute.amazonaws.com',\n        'PORT': '5432',\n    }\n}",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -754,7 +729,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "TIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")",
+        "peekOfCode": "TIME_ZONE = 'Europe/Paris'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#####################################################################",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -763,7 +738,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#####################################################################\n#Deployer sur heroku",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -772,7 +747,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#####################################################################\n#Deployer sur heroku\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -781,7 +756,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\nMEDIA_URL = \"/media/\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#####################################################################\n#Deployer sur heroku\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n#STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join('/static'),",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -790,7 +765,7 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\nMEDIA_URL = \"/media/\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#####################################################################\n#Deployer sur heroku\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n#STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join('/static'),\n# ]\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n# #STATIC_ROOT = os.path.join(BASE_DIR, 'static')",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
@@ -799,43 +774,16 @@
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR / \"staticfiles\")\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\nMEDIA_URL = \"/media/\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n#STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join('/static'),\n# ]\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n# #STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },
     {
-        "label": "STATICFILES_DIRS",
+        "label": "#STATIC_ROOT",
         "kind": 5,
         "importPath": "studi_project.studi_project.settings",
         "description": "studi_project.studi_project.settings",
-        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )\nMEDIA_URL = \"/media/\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_URL",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },\n# }",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_URL",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },\n# }",
-        "detail": "studi_project.studi_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_ROOT",
-        "kind": 5,
-        "importPath": "studi_project.studi_project.settings",
-        "description": "studi_project.studi_project.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\ndjango_heroku.settings(locals())\n# STORAGES = {\n#     # ...\n#     \"staticfiles\": {\n#         \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n#     },\n# }",
+        "peekOfCode": "#STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join('/static'),\n# ]\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n# #STATIC_ROOT = os.path.join(BASE_DIR, 'static')\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\n# MEDIA_URL = \"/media/\"",
         "detail": "studi_project.studi_project.settings",
         "documentation": {}
     },

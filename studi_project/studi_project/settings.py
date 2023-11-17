@@ -12,13 +12,13 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import psycopg2
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import dj_database_url
 import django_heroku
-from decouple import config
+#from decouple import config
 
-load_dotenv()
+#load_dotenv()
 
 
 
@@ -33,14 +33,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ['SECRET_KEY']
-SECRET_KEY = os.environ.get('SECRET_KEY')
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6'
+#SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://chouvang-projet-studi-cb20d2563faa.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']
 
 
 # Application definition
@@ -116,11 +116,25 @@ WSGI_APPLICATION = 'studi_project.wsgi.application'
 #         'PORT': os.environ["DB_PORT"],
 #     }
 # }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd2c7ear4fatsgr',
+        'USER': 'mcmvwrowecaypb',
+        'PASSWORD': '1f39b93300f49bb3616cc57cda29ba2195664ff1a0cc80d5cfec6f11d450a496',
+        'HOST': 'ec2-99-80-190-165.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 # DATABASES = {
 #     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
 # }
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES = ['default'].update(db_from_env)
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         conn_max_age=600,
+#         conn_health_checks=True,
+#     ),
+# }
 
 
 # Password validation
@@ -163,11 +177,24 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STATIC_ROOT = os.path.join(BASE_DIR / "staticfiles")
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
-MEDIA_URL = "/media/"
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+#####################################################################
+#Deployer sur heroku
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = [
+#     os.path.join('/static'),
+# ]
+# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+# #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
+# ]
+# MEDIA_URL = "/media/"
+# MEDIA_URL = "/media/"
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 django_heroku.settings(locals())
 
 # STORAGES = {
