@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\CDA Python\Cours\Bachelor CDA\DEV\Studi\Evaluation CDA_2\Bloc_3_1\Django_projet\venv"
+VIRTUAL_ENV="D:\CDA Python\Cours\Bachelor CDA\DEV\Studi\Evaluation CDA_2\Bloc_3_1\Django_projet_digital\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(venv) ${PS1:-}"
+    PS1="(env) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(venv) "
+    VIRTUAL_ENV_PROMPT="(env) "
     export VIRTUAL_ENV_PROMPT
 fi
 
