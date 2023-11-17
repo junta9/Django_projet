@@ -1,1 +1,0 @@
-web: gunicorn studi_project.wsgi:application --log-file -

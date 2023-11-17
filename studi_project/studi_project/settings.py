@@ -12,13 +12,13 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import psycopg2
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 import dj_database_url
 import django_heroku
 #from decouple import config
 
-#load_dotenv()
+load_dotenv()
 
 
 
@@ -40,7 +40,7 @@ SECRET_KEY = 'django-insecure-tq28fuoss+c7t^*oz_w6puv)is#p1#9vwps^bgozio9y=!x-&6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chouvang-studi-projet-d7b9dbd7b439.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -106,26 +106,26 @@ WSGI_APPLICATION = 'studi_project.wsgi.application'
 #         'PORT': config("DB_PORT"),
 #     }
 # }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': os.environ["DB_NAME"],
-#         'USER': os.environ["DB_USER"],
-#         'PASSWORD': os.environ["DB_PASSWORD"],
-#         'HOST': os.environ["DB_HOST"],
-#         'PORT': os.environ["DB_PORT"],
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd2c7ear4fatsgr',
-        'USER': 'mcmvwrowecaypb',
-        'PASSWORD': '1f39b93300f49bb3616cc57cda29ba2195664ff1a0cc80d5cfec6f11d450a496',
-        'HOST': 'ec2-99-80-190-165.eu-west-1.compute.amazonaws.com',
-        'PORT': '5432',
+        'NAME': os.environ["DB_NAME"],
+        'USER': os.environ["DB_USER"],
+        'PASSWORD': os.environ["DB_PASSWORD"],
+        'HOST': os.environ["DB_HOST"],
+        'PORT': os.environ["DB_PORT"],
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'd2c7ear4fatsgr',
+#         'USER': 'mcmvwrowecaypb',
+#         'PASSWORD': '1f39b93300f49bb3616cc57cda29ba2195664ff1a0cc80d5cfec6f11d450a496',
+#         'HOST': 'ec2-99-80-190-165.eu-west-1.compute.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 # DATABASES = {
 #     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
 # }
